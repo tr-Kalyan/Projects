@@ -1,0 +1,9 @@
+table{
+    border:1px solid black;
+}
+
+thead, tbody{
+    font-family:sans-serif;
+    padding: 7px;
+    border:1px solid blue;
+}

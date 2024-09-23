@@ -11,7 +11,7 @@ app.use("/api/v1/course",courseRouter)
 
 
 async function main(){
-    await mongoose.connect("mongodb+srv://kalyan_tr:VILOKeCaTw0Z8Twy@cohort.9lrvzsy.mongodb.net/coursera-app")
+    await mongoose.connect("mongodb+srv://kalyan_tr:<password>@cohort.9lrvzsy.mongodb.net/coursera-app")
     app.listen(3000);
     console.log("listening on port 3000")
 }
